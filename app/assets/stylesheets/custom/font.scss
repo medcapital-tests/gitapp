@@ -1,0 +1,41 @@
+html {
+  font-size: 0.7rem;
+}
+
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: 0.8rem;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 0.9rem;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: 1.0rem;
+  }
+}
+
+.f80 {
+  font-size: 80% !important
+}
+
+.f85 {
+  font-size: 85% !important
+}
+
+.f90 {
+  font-size: 90% !important
+}
+
+.f95 {
+  font-size: 95% !important
+}
+
+.f100 {
+  font-size: 100% !important
+}

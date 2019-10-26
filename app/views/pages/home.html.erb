@@ -1,5 +1,29 @@
-<h1>This is Home</h1>
 
-<h3>This is subHome</h3>
+<div class="row align-items-center justify-content-center" style="height:100%;">
+  <div class="jumbotron align-self-center" style="width:80%;">
+    <div class="d-flex justify-content-center">
+      <img src="https://medcapital.s3-sa-east-1.amazonaws.com/images/apps/app/undraw_finance_0bdk+(1).png" alt="MedCapital" height="50%" width="50%">
+    </div>
+    
+    <p class="lead">Com a MedCapital você tem suas informações financeiras na palma da mão.</p>
+    <hr class="my-4">
+    <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+    <a class="btn btn-primary my-1" id="btnLogin">Entrar</a>
+  </div>
+</div>
 
-<h5>This is subHome 3</h5>
+<div class="row">
+  <% if mobile_device == "mobile" %>
+    Show something for mobile users.
+  <% else %>
+    Show something for DESKTOP users.
+  <% end %>
+</div>
+<script>
+  $(document).ready(function() {
+    $("#btnLogin").on('click', function () {
+      // window.open('/entrar', '_self')
+      alert("Entrar");
+    });
+  });
+</script>

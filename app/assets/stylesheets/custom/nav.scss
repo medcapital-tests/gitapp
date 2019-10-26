@@ -1,0 +1,20 @@
+.nav-link {
+  text-align: center !important;
+}
+
+.nav-link:active {
+  color: #053B5E !important;
+}
+
+
+.nav-tabs .nav-link.active {
+  color: #086bac !important;
+}
+
+.nav-tabs .nav-link::before {
+  background-color: #086bac !important;
+}
+
+.nav-tabs-material .nav-tabs-indicator {
+  background-color: #086bac !important;
+}
