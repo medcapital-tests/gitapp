@@ -16,4 +16,5 @@
 //= require popper
 //= require bootstrap
 //= require material
+//= require serviceworker-companion
 //= require_tree .

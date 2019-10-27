@@ -46,6 +46,9 @@ gem 'material-sass', '4.1.1'
 gem 'material_icons'
 gem 'font-awesome-sass', '~> 5.8.1'
 
+# Use Service Worker with the Rails asset pipeline
+gem "serviceworker-rails"
+
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
 
